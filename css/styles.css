@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 
 a {
@@ -13,6 +14,7 @@ ul {
 /*------------------------HEADER--------------------------------*/
 
 .header {
+  background-color: #fff;
 }
 
 .header-nav {
@@ -66,6 +68,9 @@ ul {
   color: #434455;
   font-style: normal;
 }
+.contact-link:hover {
+  color: #404bbf;
+}
 
 /*--------------------------------------------------------*/
 
@@ -91,6 +96,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+.effective-btn:hover {
+  background-color: #404bbf;
 }
 
 /*--------------------------------------------------------*/
@@ -98,6 +108,7 @@ ul {
 /*------------------------ADVANTAGE--------------------------------*/
 
 .advantage {
+  background-color: #fff;
 }
 .advantage-title {
 }
@@ -115,8 +126,6 @@ ul {
 }
 
 .advantage-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -127,6 +136,7 @@ ul {
 /*--------------------------TEAM------------------------------*/
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -144,8 +154,6 @@ ul {
 }
 
 .team-image {
-  width: 264px;
-  height: 260px;
 }
 
 .team-subtitle {
@@ -158,8 +166,6 @@ ul {
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -199,8 +205,6 @@ ul {
 }
 
 .portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -233,8 +237,6 @@ ul {
 }
 
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
