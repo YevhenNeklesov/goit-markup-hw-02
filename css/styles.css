@@ -31,6 +31,11 @@ ul {
   color: #4d5ae5;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
 .header-link .accent {
   color: #2e2f42;
 }
@@ -159,6 +164,7 @@ ul {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-image {
